@@ -1,0 +1,15 @@
+service: webchat-with-serverless-aws
+
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+
+functions:
+  hello:
+    handler: src/handlers.hello
+    
+plugins:
+  - serverless-plugin-typescript
