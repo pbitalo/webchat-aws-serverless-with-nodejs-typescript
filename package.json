@@ -1,0 +1,24 @@
+{
+  "name": "webchat-with-serverless-aws",
+  "version": "1.0.0",
+  "description": "Webchat development with aws serverless and nodeJs/typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.104",
+    "@types/node": "^18.7.13",
+    "prettier": "^2.7.1",
+    "serverless": "^3.22.0",
+    "serverless-plugin-typescript": "^2.1.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.38.1",
+    "aws-lambda": "^1.0.7",
+    "aws-sdk": "^2.1201.0"
+  }
+}
