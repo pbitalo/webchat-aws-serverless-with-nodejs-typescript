@@ -147,7 +147,7 @@ const handleGetMessages = async (client: Client, body: GetMessages) => {
     JSON.stringify({
       type: "messages",
       value: {
-        messages: result.Items && result.Items.length > 0 ? result.Items : [],
+        messages: result.Items ? result.Items : [],
         lastEvaluatedKey: result.LastEvaluatedKey,
       },
     }),
