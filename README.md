@@ -4,10 +4,9 @@ This is a serverless web chat conversation app. It was developed using NodeJs, t
 
 ## Requirements
 
-1 - NodeJs
-2 - AWS Account
-3 - AWS CLI
-4 - Serverless Framework (npm)
+- [AWS CLI](https://aws.amazon.com/cli/)
+- [Node.js 14](https://nodejs.org/)
+- [Serverless Framework’s](https://www.serverless.com/framework/docs/getting-started)
 
 It is necessary to have an AWS account configured so that it is possible to deploy the application in the cloud.
 
