@@ -55,7 +55,7 @@ const handleConnect = async (
 
   const existingConnectionId = await clientsStore.getConnectionIdByNickname(parameters.nickname);
 
-  if (existingConnectionId && (await sendData(existingConnectionId, JSON.stringify({ type: "ping" })))) {
+  if (existingConnectionId) {
     return responseForbidden;
   }
 
