@@ -1,4 +1,4 @@
-# webchat-aws-serverless-with-nodejs-typescript
+# webchat aws serverless with nodejs typescript
 
 This is a serverless web chat conversation app (backend). It was developed using NodeJs, typescript and some AWS services, such as DynamoDb and APIGateway.
 
